@@ -214,7 +214,7 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 #$(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
 # LiveDisplay
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.xiaomi_sm6150
 
 # Media
